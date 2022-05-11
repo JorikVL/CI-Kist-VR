@@ -184,7 +184,7 @@ The ShowDataSensor is the script that displays the data we got from the database
         }
     }
 ## CameraFollow
-The CameraFollowscript is used to have the data displayed by our sensors to be facing the player all the time, so its easily readable. In the script we first give the camera is has to follow, which is mostly the player. After that it’s as easy as making an update function where we continually give the target a new position, and then rotating it towards the camera. There are 2 versions of rotation, the first version has very sharp movement, the second ones have a smoother rotation.
+The CameraFollowscript is used to have the data displayed by our sensors to be facing the player all the time, so its easily readable. In the script we first give the camera is has to follow, which is mostly the player. After that it’s as easy as making an update function where we continually give the target a new position, and then rotating it towards the camera. There are 2 versions of rotation, the first version has very sharp movement, the second ones has a smoother rotation.
 
     using System.Collections;
     using System.Collections.Generic;
